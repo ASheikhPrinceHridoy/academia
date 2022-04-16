@@ -1,0 +1,468 @@
+body{
+ margin: 0px;
+ font-family: var(--bs-font-sans-serif);
+ font-size: 1rem; font-weight: 400;
+ line-height: 1.5; color: rgb(33, 37, 41);
+ background-color: rgb(255, 255, 255);
+ text-size-adjust: 100%;
+ -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+hr{
+ margin: 1rem 0px;
+ color: inherit;
+ background-color: currentcolor;
+ border: 0px; opacity: 0.25;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{ 
+ margin-top: 0px;
+ margin-bottom: 0.5rem;
+ font-weight: 500;
+ line-height: 1.2;
+}
+h1, .h1{
+ font-size: calc(1.375rem + 1.5vw);
+}
+
+h5, .h5{
+ font-size: 1.25rem;
+}
+h6, .h6{
+ font-size: 1rem;
+}
+p{
+ margin-top: 0px;
+ margin-bottom: 1rem;
+}
+address{
+ margin-bottom: 1rem;
+ font-style: normal;
+ line-height: inherit; 
+}
+ol, ul{ 
+ padding-left: 2rem; 
+}
+ol, ul{
+ margin-top: 0px; 
+ margin-bottom: 1rem; 
+}
+ol ol, ul ul, ol ul, ul ol{
+ margin-bottom: 0px; 
+}
+dt{
+ font-weight: 700; 
+}
+dd{
+ margin-bottom: 0.5rem; 
+ margin-left: 0px; 
+}
+b, strong{ 
+ font-weight: bolder; 
+}
+small, .small{
+ font-size: 0.875em;
+}
+sub, sup{
+ position: relative;
+ font-size: 0.75em; line-height: 0;
+ vertical-align: baseline;
+}
+sub{
+ bottom: -0.25em;
+}
+sup{
+ top: -0.5em;
+}
+a{
+ color: rgb(13, 110, 253);
+ text-decoration: underline;
+}
+a:hover{
+ color: rgb(10, 88, 202);
+}
+a:not([href]):not([class]), a:not([href]):not([class]):hover { color: inherit; text-decoration: none; }
+pre, code{
+ font-family: var(--bs-font-monospace);
+ font-size: 1em; direction: ltr;
+ unicode-bidi: bidi-override;
+}
+pre{
+ display: block;
+ margin-top: 0px;
+ margin-bottom: 1rem;
+ overflow: auto;
+ font-size: 0.875em; 
+}
+pre code{
+ font-size: inherit;
+ color: inherit;
+ word-break: normal; 
+}
+code{
+ font-size: 0.875em;
+ color: rgb(214, 51, 132);
+ overflow-wrap: break-word; 
+}
+a > code{
+ color: inherit;
+}
+img, svg{
+ vertical-align: middle;
+}
+table{
+ caption-side: bottom;
+ border-collapse: collapse;
+}
+caption{
+ padding-top: 0.5rem;
+ padding-bottom: 0.5rem; 
+ color: rgb(108, 117, 125); 
+ text-align: left; 
+}
+th{
+ text-align: -webkit-match-parent;
+}
+td, th{
+ border-color: inherit;
+ border-style: solid;
+ border-width: 0px;
+}
+label {
+ display:inline-block;
+}
+button{
+ border-radius: 0px;
+}
+button:focus{
+ outline: -webkit-focus-ring-color auto 5px;
+}
+input, button, select, textarea{
+ margin: 0px;
+ font-family: inherit;
+ font-size: inherit; 
+ line-height: inherit; 
+}
+button, select{
+ text-transform: none; 
+}
+[role="button"] {
+ cursor: pointer;
+}
+select{
+ overflow-wrap: normal;
+}
+[list]::-webkit-calendar-picker-indicator {
+	display: none;
+}
+button, [type="button"], [type="reset"], [type="submit"] { appearance: button; }
+button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled) { cursor: pointer; }
+textarea{
+ resize: vertical; 
+}
+iframe{
+ border: 0px;
+}
+progress{
+ vertical-align: baseline;
+}
+
+/****************************
+ ***all image icon section code 
+ ****************************/
+.fa-heart{
+	color: rgb(30, 178, 166) !important;
+}
+.img-icon{
+	width: 50px !important;
+	height: 50px;
+	color: #1eb2b6;
+	cursor: pointer;
+}
+.img-icon1{
+	width: 50px !important;
+	background: white;
+	border-radius: 100%;
+	cursor: pointer;
+}
+.img-icon2{
+width: 60px !important;
+cursor: pointer;
+}
+.img-icon3{
+width: 50px !important;
+cursor: pointer;
+}
+.img-icon4{
+width: 75px !important;
+background: white;
+border-radius: 100%;
+cursor: pointer;
+}
+.owl-theme .owl-nav{
+    display: none;
+}
+
+.acmt {
+    margin-top: 96px !important;
+}
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+    display: none;
+}
+/****************************
+ ***botton section code start
+ ****************************/
+
+.btn:hover{
+ color: rgb(33, 37, 41); 
+}
+.btn:focus{
+ outline: 0px;
+ box-shadow: rgba(13, 110, 253, 0.25) 0px 0px 0px 0.25rem; 
+}
+.btn:disabled, .btn.disabled{
+ pointer-events: none;
+ opacity: 0.65;
+}
+.btn-primary{
+ color: rgb(255, 255, 255);
+ background-color: rgb(13, 110, 253);
+ border-color: rgb(13, 110, 253);
+}
+.btn-primary:hover{
+ color: rgb(255, 255, 255);
+ background-color: rgb(11, 94, 215);
+ border-color: rgb(10, 88, 202);
+}
+.btn-primary:focus{
+ color: rgb(255, 255, 255);
+ background-color: rgb(11, 94, 215);
+ border-color: rgb(10, 88, 202);
+ box-shadow: rgba(49, 132, 253, 0.5) 0px 0px 0px 0.25rem;
+}
+.btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle{
+ color: rgb(255, 255, 255);
+ background-color: rgb(10, 88, 202);
+ border-color: rgb(10, 83, 190);
+}
+.btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus{
+ box-shadow: rgba(49, 132, 253, 0.5) 0px 0px 0px 0.25rem;
+}
+.btn-primary:disabled, .btn-primary.disabled{
+ color: rgb(255, 255, 255);
+ background-color: rgb(13, 110, 253);
+ border-color: rgb(13, 110, 253);
+}
+.btn-outline-primary{
+ color: rgb(13, 110, 253);
+ border-color: rgb(13, 110, 253);
+}
+.btn-outline-primary:hover{
+ color: rgb(255, 255, 255);
+ background-color: rgb(13, 110, 253);
+ border-color: rgb(13, 110, 253);
+ }
+.btn-outline-primary:focus{
+ box-shadow: rgba(13, 110, 253, 0.5) 0px 0px 0px 0.25rem;
+}
+.btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show{
+ color: rgb(255, 255, 255);
+ background-color: rgb(13, 110, 253);
+ border-color: rgb(13, 110, 253);
+}
+.btn-outline-primary:active:focus, .btn-outline-primary.active:focus, .btn-outline-primary.dropdown-toggle.show:focus{
+ box-shadow: rgba(13, 110, 253, 0.5) 0px 0px 0px 0.25rem;
+}
+.btn-outline-primary:disabled, .btn-outline-primary.disabled{
+ color: rgb(13, 110, 253);
+ background-color: transparent;
+}
+.fade{transition: opacity 0.15s linear 0s;
+}
+
+.add{
+    color: white !important;
+}
+.add2{
+    font-size: 60px !important;
+    color: white !important;
+}
+/****************************
+ * **fotco section code
+ * ***************************/
+.ftco-no-pt{
+ padding-top: 0px !important; 
+}
+.ftco-no-pb {
+ padding-bottom: 0px !important;
+}
+.ftco-intro{
+ width: 100%;
+ position: relative;
+ z-index: 0;
+ color: rgba(255, 255, 255, 0.8); 
+}
+.ftco-intro h2, .ftco-intro .h2{
+  color: rgb(255, 255, 255);
+  font-size: 27px;
+  font-weight: 500;
+}
+.ftco-intro .subscribe-form{
+ width: 100%;
+}
+.ftco-intro .subscribe-form .form-group{
+ position: relative;
+ margin-bottom: 0px;
+ border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+ border-radius: 0px; 
+}
+.ftco-intro .subscribe-form .form-group input{
+ font-size: 16px;
+ padding: 0px;
+ border-radius: 5px 0px 0px 5px;
+ background: transparent !important;
+ color: white !important;
+ border: none !important;
+}
+.ftco-intro .subscribe-form .form-group input::-webkit-input-placeholder{
+ color: white !important; 
+}
+.ftco-intro .subscribe-form .form-group input:focus{
+ outline: none !important;
+ border: none !important; 
+}
+.ftco-intro .subscribe-form .form-group .btn-icon span{
+ color: rgb(255, 255, 255);
+}
+.ftco-intro .subscribe-form .icon{ 
+ position: absolute;
+ top: 50%; 
+ right: 20px; 
+ transform: translateY(-50%); 
+ color: rgba(255, 255, 255, 0.8); 
+}
+.ftco-footer{
+ padding: 5em 0px 0px;
+ background: rgb(238, 238, 238); 
+}
+.ftco-footer .logo a{
+ position: relative; 
+ text-decoration: none; 
+ color: rgb(17, 17, 17); 
+ font-size: 30px; 
+}
+.ftco-footer .logo a span{
+ color: rgb(30, 178, 166); 
+}
+.ftco-footer .ftco-footer-widget h2, .ftco-footer .ftco-footer-widget .h2{
+ color: rgb(17, 17, 17);
+ margin-bottom: 40px; 
+ font-size: 18px; 
+ font-weight: 500; 
+ font-family: Roboto, Arial, sans-serif;
+}
+.ftco-footer .ftco-footer-widget ul li{
+ margin-bottom: 10px; 
+}
+.ftco-footer .ftco-footer-widget ul li a{
+ color: rgb(102, 102, 102); 
+}
+.ftco-footer .ftco-footer-widget ul li a span{
+ font-size: 14px; 
+ color: rgb(30, 178, 166);
+}
+.ftco-footer .ftco-footer-widget ul li a:hover{
+ color: rgb(30, 178, 166);
+}
+.ftco-footer .ftco-footer-widget ul li a:hover span{
+    color: rgb(30, 178, 166);
+}
+.ftco-footer .ftco-footer-widget .btn-primary{
+ background: rgb(255, 255, 255) !important; 
+ border: 2px solid rgb(255, 255, 255) !important; 
+}
+.ftco-footer .ftco-footer-widget .btn-primary:hover{
+ background: rgb(255, 255, 255); 
+ border: 2px solid rgb(255, 255, 255) !important;
+}
+.ftco-footer .block-23 ul{
+ padding: 0px;
+}
+.ftco-footer .block-23 ul li{
+ font-size: 15px; 
+}
+.ftco-footer .block-23 ul li, .ftco-footer .block-23 ul li > a{
+ display: table; 
+ line-height: 1.5; 
+ margin-bottom: 15px;
+ font-size: 15px; 
+}
+.ftco-footer .block-23 ul li span{
+ color: rgb(30, 178, 166);
+}
+.ftco-footer .block-23 ul li .icon, .ftco-footer .block-23 ul li .text{
+ display: table-cell; 
+ vertical-align: top; 
+ color: rgba(0, 0, 0, 0.8) !important; 
+}
+.ftco-footer .block-23 ul li .icon{
+ width: 40px; 
+ font-size: 15px; 
+ padding-top: 2px; 
+ color: rgb(30, 178, 166) !important; 
+}
+.ftco-footer .bg-darken{
+ background: rgb(233, 233, 233) !important; 
+}
+.ftco-footer .block-21 .blog-img{
+  display: block; 
+  height: 50px; 
+  width: 50px;
+}
+.ftco-footer .block-21 .text{
+ width: calc(100% - 50px);
+ padding-left: 20px; 
+}
+.ftco-footer .block-21 .text .heading{
+ font-size: 16px; 
+ font-weight: 400; 
+ margin-bottom: 0px; 
+}
+.ftco-footer .block-21 .text .heading a{
+ color: rgb(102, 102, 102); 
+}
+.ftco-footer .block-21 .text .heading a:hover, .ftco-footer .block-21 .text .heading a:active, .ftco-footer .block-21 .text .heading a:focus {
+ color: rgb(30, 178, 166); 
+}
+.ftco-footer .block-21 .text .meta > div{
+ display: inline-block;
+ font-size: 12px; 
+ margin-right: 5px; 
+}
+.ftco-footer .block-21 .text .meta > div a{
+ color: rgb(30, 178, 166); 
+}
+.ftco-footer-social li{
+ list-style: none; 
+ margin: 0px 5px 0px 0px; 
+ display: inline-block; 
+}
+.ftco-footer-social li a{
+ height: 40px; 
+ width: 40px;
+ display: block; 
+ color: rgb(255, 255, 255); 
+ border-radius: 50%; 
+ position: relative; 
+ background: rgb(30, 178, 166); 
+}
+.ftco-footer-social li a span{
+ position: absolute; 
+ font-size: 24px; 
+ top: 50%; left: 50%; 
+ transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255) !important; 
+}
+.ftco-footer-social li a:hover{
+ color: rgb(255, 255, 255) !important; 
+}
